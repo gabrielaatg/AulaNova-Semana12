@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="16" failures="0" errors="0" time="0.547">
+  <testsuite name="API HTTP de Aula Nova" errors="0" failures="0" skipped="0" timestamp="2026-11-06T22:59:29" time="0.335" tests="16">
+    <testcase classname="API HTTP de Aula Nova GET /api/student devuelve 200 y el perfil del estudiante" name="API HTTP de Aula Nova GET /api/student devuelve 200 y el perfil del estudiante" time="0.028" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova GET /api/courses devuelve cuatro cursos matriculados" name="API HTTP de Aula Nova GET /api/courses devuelve cuatro cursos matriculados" time="0.004" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova los cursos contienen campos de horario, aula y créditos" name="API HTTP de Aula Nova los cursos contienen campos de horario, aula y créditos" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova las calificaciones incluyen evaluaciones y nota final" name="API HTTP de Aula Nova las calificaciones incluyen evaluaciones y nota final" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova GET /api/messages devuelve una lista" name="API HTTP de Aula Nova GET /api/messages devuelve una lista" time="0.003" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages registra un mensaje válido con estado 201" name="API HTTP de Aula Nova POST /api/messages registra un mensaje válido con estado 201" time="0.005" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova el mensaje creado permanece visible en la bandeja durante la sesión" name="API HTTP de Aula Nova el mensaje creado permanece visible en la bandeja durante la sesión" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza la ausencia de curso" name="API HTTP de Aula Nova POST /api/messages rechaza la ausencia de curso" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza un asunto vacío" name="API HTTP de Aula Nova POST /api/messages rechaza un asunto vacío" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza un curso inexistente" name="API HTTP de Aula Nova POST /api/messages rechaza un curso inexistente" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza un mensaje de menos de cinco caracteres" name="API HTTP de Aula Nova POST /api/messages rechaza un mensaje de menos de cinco caracteres" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza JSON mal formado" name="API HTTP de Aula Nova POST /api/messages rechaza JSON mal formado" time="0.003" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza cuerpos mayores al máximo con 413" name="API HTTP de Aula Nova POST /api/messages rechaza cuerpos mayores al máximo con 413" time="0.003" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova una ruta de API inexistente devuelve 404" name="API HTTP de Aula Nova una ruta de API inexistente devuelve 404" time="0.003" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova un archivo estático inexistente devuelve 404" name="API HTTP de Aula Nova un archivo estático inexistente devuelve 404" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova el servidor deniega el acceso a archivos fuera de app con 403" name="API HTTP de Aula Nova el servidor deniega el acceso a archivos fuera de app con 403" time="0.002" file="2. Integración_API (servidor Node.js)\aulanova.api.test.js">
+    </testcase>
+  </testsuite>
+</testsuites>

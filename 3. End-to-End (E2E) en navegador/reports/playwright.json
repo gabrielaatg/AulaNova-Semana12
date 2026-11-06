@@ -1,0 +1,474 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "3. End-to-End (E2E) en navegador/playwright.config.cjs"
+    ],
+    "configFile": "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\playwright.config.cjs",
+    "rootDir": "C:/Users/gabtg/Desktop/Calidad/proyecto-aulavirtual/3. End-to-End (E2E) en navegador",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/gabtg/Desktop/Calidad/proyecto-aulavirtual/3. End-to-End (E2E) en navegador/reports/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/gabtg/Desktop/Calidad/proyecto-aulavirtual/3. End-to-End (E2E) en navegador",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador",
+        "snapshotDir": "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.js",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "browserName": "chromium",
+          "headless": true,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\playwright.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\playwright-html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node backend/server.js",
+      "cwd": "C:\\Users\\gabtg\\Desktop\\Calidad\\proyecto-aulavirtual",
+      "url": "http://127.0.0.1:3000/api/student",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "aulanova.e2e.spec.js",
+      "file": "aulanova.e2e.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "E2E01: la página principal muestra el dashboard de Aula Nova",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1199,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:31.649Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-37da4905b84e9e59d5a8",
+          "file": "aulanova.e2e.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "E2E02: el perfil presenta los datos del estudiante",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1202,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:32.947Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-0e7b70de5034d50d55c4",
+          "file": "aulanova.e2e.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "E2E03: Mis cursos muestra los cuatro cursos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1383,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:34.159Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-b7941325390710d6b354",
+          "file": "aulanova.e2e.spec.js",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "E2E04: Calificaciones muestra una fila por curso",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1110,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:35.553Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-c2b049e643dbf42720a9",
+          "file": "aulanova.e2e.spec.js",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "E2E05: la sección Mensajes presenta la bandeja",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1259,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:36.675Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-dfe8fe55dd4165dc022d",
+          "file": "aulanova.e2e.spec.js",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "E2E06: el botón Nuevo mensaje abre el diálogo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1112,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:37.943Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-8d0380f34a1bc0019352",
+          "file": "aulanova.e2e.spec.js",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "E2E07: un mensaje válido se envía y aparece en la bandeja",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1271,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:39.063Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-8212f3030d93ffe2b336",
+          "file": "aulanova.e2e.spec.js",
+          "line": 49,
+          "column": 1
+        },
+        {
+          "title": "E2E08: el formulario informa que falta seleccionar curso",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1220,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:40.344Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-c15c94410a75573004c9",
+          "file": "aulanova.e2e.spec.js",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "E2E09: se puede navegar por todas las secciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1768,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:41.575Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-cd0c1cd2a422aa622764",
+          "file": "aulanova.e2e.spec.js",
+          "line": 71,
+          "column": 1
+        },
+        {
+          "title": "E2E10: recargar vuelve a cargar el perfil y los cursos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1293,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T22:59:43.356Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eabc27dbb085a5b034ac-04a4180ddba807352f6e",
+          "file": "aulanova.e2e.spec.js",
+          "line": 80,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-06T22:59:31.283Z",
+    "duration": 14031.707,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

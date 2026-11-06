@@ -1,0 +1,24 @@
+<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="14.031707">
+<testsuite name="aulanova.e2e.spec.js" timestamp="2026-11-06T22:59:31.314Z" hostname="" tests="10" failures="0" skipped="0" time="12.817" errors="0">
+<testcase name="E2E01: la página principal muestra el dashboard de Aula Nova" classname="aulanova.e2e.spec.js" time="1.199">
+</testcase>
+<testcase name="E2E02: el perfil presenta los datos del estudiante" classname="aulanova.e2e.spec.js" time="1.202">
+</testcase>
+<testcase name="E2E03: Mis cursos muestra los cuatro cursos" classname="aulanova.e2e.spec.js" time="1.383">
+</testcase>
+<testcase name="E2E04: Calificaciones muestra una fila por curso" classname="aulanova.e2e.spec.js" time="1.11">
+</testcase>
+<testcase name="E2E05: la sección Mensajes presenta la bandeja" classname="aulanova.e2e.spec.js" time="1.259">
+</testcase>
+<testcase name="E2E06: el botón Nuevo mensaje abre el diálogo" classname="aulanova.e2e.spec.js" time="1.112">
+</testcase>
+<testcase name="E2E07: un mensaje válido se envía y aparece en la bandeja" classname="aulanova.e2e.spec.js" time="1.271">
+</testcase>
+<testcase name="E2E08: el formulario informa que falta seleccionar curso" classname="aulanova.e2e.spec.js" time="1.22">
+</testcase>
+<testcase name="E2E09: se puede navegar por todas las secciones" classname="aulanova.e2e.spec.js" time="1.768">
+</testcase>
+<testcase name="E2E10: recargar vuelve a cargar el perfil y los cursos" classname="aulanova.e2e.spec.js" time="1.293">
+</testcase>
+</testsuite>
+</testsuites>

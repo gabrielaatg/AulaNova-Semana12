@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="31" failures="0" errors="0" time="0.746">
+  <testsuite name="API HTTP de Aula Nova" errors="0" failures="0" skipped="0" timestamp="2026-11-06T22:42:03" time="0.409" tests="16">
+    <testcase classname="API HTTP de Aula Nova GET /api/student devuelve 200 y el perfil del estudiante" name="API HTTP de Aula Nova GET /api/student devuelve 200 y el perfil del estudiante" time="0.027">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova GET /api/courses devuelve cuatro cursos matriculados" name="API HTTP de Aula Nova GET /api/courses devuelve cuatro cursos matriculados" time="0.008">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova los cursos contienen campos de horario, aula y créditos" name="API HTTP de Aula Nova los cursos contienen campos de horario, aula y créditos" time="0.003">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova las calificaciones incluyen evaluaciones y nota final" name="API HTTP de Aula Nova las calificaciones incluyen evaluaciones y nota final" time="0.003">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova GET /api/messages devuelve una lista" name="API HTTP de Aula Nova GET /api/messages devuelve una lista" time="0.009">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages registra un mensaje válido con estado 201" name="API HTTP de Aula Nova POST /api/messages registra un mensaje válido con estado 201" time="0.004">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova el mensaje creado permanece visible en la bandeja durante la sesión" name="API HTTP de Aula Nova el mensaje creado permanece visible en la bandeja durante la sesión" time="0.002">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza la ausencia de curso" name="API HTTP de Aula Nova POST /api/messages rechaza la ausencia de curso" time="0.002">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza un asunto vacío" name="API HTTP de Aula Nova POST /api/messages rechaza un asunto vacío" time="0.003">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza un curso inexistente" name="API HTTP de Aula Nova POST /api/messages rechaza un curso inexistente" time="0.002">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza un mensaje de menos de cinco caracteres" name="API HTTP de Aula Nova POST /api/messages rechaza un mensaje de menos de cinco caracteres" time="0.003">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza JSON mal formado" name="API HTTP de Aula Nova POST /api/messages rechaza JSON mal formado" time="0.003">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova POST /api/messages rechaza cuerpos mayores al máximo con 413" name="API HTTP de Aula Nova POST /api/messages rechaza cuerpos mayores al máximo con 413" time="0.003">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova una ruta de API inexistente devuelve 404" name="API HTTP de Aula Nova una ruta de API inexistente devuelve 404" time="0.003">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova un archivo estático inexistente devuelve 404" name="API HTTP de Aula Nova un archivo estático inexistente devuelve 404" time="0.004">
+    </testcase>
+    <testcase classname="API HTTP de Aula Nova el servidor deniega el acceso a archivos fuera de app con 403" name="API HTTP de Aula Nova el servidor deniega el acceso a archivos fuera de app con 403" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="lógica del frontend" errors="0" failures="0" skipped="0" timestamp="2026-11-06T22:42:04" time="0.069" tests="15">
+    <testcase classname="lógica del frontend escapa los cinco caracteres HTML especiales" name="lógica del frontend escapa los cinco caracteres HTML especiales" time="0.001">
+    </testcase>
+    <testcase classname="lógica del frontend conserva texto sin caracteres especiales" name="lógica del frontend conserva texto sin caracteres especiales" time="0">
+    </testcase>
+    <testcase classname="lógica del frontend convierte valores no textuales a cadena antes de escaparlos" name="lógica del frontend convierte valores no textuales a cadena antes de escaparlos" time="0.001">
+    </testcase>
+    <testcase classname="lógica del frontend rechaza la selección de curso vacía" name="lógica del frontend rechaza la selección de curso vacía" time="0">
+    </testcase>
+    <testcase classname="lógica del frontend rechaza un asunto compuesto solo por espacios" name="lógica del frontend rechaza un asunto compuesto solo por espacios" time="0">
+    </testcase>
+    <testcase classname="lógica del frontend rechaza un asunto menor de tres caracteres" name="lógica del frontend rechaza un asunto menor de tres caracteres" time="0.001">
+    </testcase>
+    <testcase classname="lógica del frontend acepta un asunto de exactamente tres caracteres" name="lógica del frontend acepta un asunto de exactamente tres caracteres" time="0">
+    </testcase>
+    <testcase classname="lógica del frontend rechaza un asunto mayor de cien caracteres" name="lógica del frontend rechaza un asunto mayor de cien caracteres" time="0.001">
+    </testcase>
+    <testcase classname="lógica del frontend rechaza un mensaje vacío" name="lógica del frontend rechaza un mensaje vacío" time="0.001">
+    </testcase>
+    <testcase classname="lógica del frontend rechaza un mensaje menor de cinco caracteres" name="lógica del frontend rechaza un mensaje menor de cinco caracteres" time="0">
+    </testcase>
+    <testcase classname="lógica del frontend acepta un mensaje de exactamente cinco caracteres" name="lógica del frontend acepta un mensaje de exactamente cinco caracteres" time="0.001">
+    </testcase>
+    <testcase classname="lógica del frontend rechaza un mensaje mayor de mil caracteres" name="lógica del frontend rechaza un mensaje mayor de mil caracteres" time="0">
+    </testcase>
+    <testcase classname="validación del backend rechaza un payload nulo sin lanzar excepción" name="validación del backend rechaza un payload nulo sin lanzar excepción" time="0">
+    </testcase>
+    <testcase classname="validación del backend rechaza un curso que no existe" name="validación del backend rechaza un curso que no existe" time="0.001">
+    </testcase>
+    <testcase classname="validación del backend normaliza espacios y retorna el curso asociado" name="validación del backend normaliza espacios y retorna el curso asociado" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+{
+  "name": "aula-virtual",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aula Nova — pruebas y herramientas de calidad",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "npm run lint && npm run test:unit && npm run test:api && npm run test:e2e && npm run report",
+    "test:legacy": "node --test backend/server.test.js",
+    "test:unit": "jest --config \"1. Unitarias (cliente y servidor)/jest.config.cjs\" --runInBand",
+    "test:api": "jest --config \"2. Integración_API (servidor Node.js)/jest.config.cjs\" --runInBand",
+    "test:e2e": "playwright test --config \"3. End-to-End (E2E) en navegador/playwright.config.cjs\"",
+    "test:coverage": "jest --config \"4. Cobertura de código (JavaScript)/jest.config.cjs\" --runInBand --coverage",
+    "lint": "eslint app backend \"1. Unitarias (cliente y servidor)\" \"2. Integración_API (servidor Node.js)\" \"3. End-to-End (E2E) en navegador\"",
+    "load:normal": "k6 run --env SCENARIO=normal \"6. Rendimiento (tiempos de respuesta, throughput)/aulavirtual.js\"",
+    "load:elevated": "k6 run --env SCENARIO=elevated \"6. Rendimiento (tiempos de respuesta, throughput)/aulavirtual.js\"",
+    "load:stress": "k6 run --env SCENARIO=stress \"6. Rendimiento (tiempos de respuesta, throughput)/aulavirtual.js\"",
+    "report": "node \"7. Reportes y tendencias de pruebas/unireport.cjs\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.56.1",
+    "eslint": "^9.39.1",
+    "fast-xml-parser": "^5.3.1",
+    "globals": "^16.5.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "jest-junit": "^16.0.0",
+    "supertest": "^7.1.4"
+  }
+}
